@@ -1,0 +1,432 @@
+*{
+margin: 0;
+padding: 0;
+
+
+
+}
+
+
+
+header{
+position: fixed; top: 0%; width: 100%;
+/* box-sizing: border-box;  */
+background-color: white; 
+display: flex; justify-content: space-between;
+align-items: center;
+padding: 18px;
+max-width: 100%;
+font-family: 'Times New Roman', Times, serif;
+font-size: large;
+z-index: 2;
+box-shadow: 0 1px 10px rgb(1, 1, 1);
+
+
+
+}
+
+
+
+.tryp{
+position: relative; 
+}
+
+.tryp img{
+
+width: 100%;
+}
+
+header{
+    transition: 0.2s ease-out;
+}
+header:hover{
+    background-color: yellow;
+}
+
+.setimg{transition: 0.5s ease-in-out;}
+
+.setimg:hover{
+    background-color: green;
+}
+
+#trypp{
+
+position: absolute; 
+bottom: 0%;
+font-family: monospace;
+font-size: 40px;
+margin-left: 30px;
+
+}
+
+a{
+color: rgb(10, 10, 2);
+text-decoration: none;
+text-decoration: wavy;
+
+
+}
+
+/* .tryp{
+    overflow: hidden;
+} */
+/* 
+p::fir{
+color: palevioletred;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: black;
+} */
+
+
+
+/* .justnav::before{
+    content: url(food.png);
+    display: inline;
+} */
+
+::selection{
+background-color: yellow;
+color: aqua;
+
+}
+
+
+    
+    
+
+
+
+
+.justnav{
+/* background-image: url(fish.jpg); */
+color: rgb(8, 8, 0) ;
+letter-spacing: 5px;
+margin-left: 10px;
+font-size: 15px;
+
+
+}
+
+.secimg{
+    
+    line-height: 4;
+    
+    
+
+
+}
+
+.setimg{
+    
+   margin-bottom:120px;
+    margin-top: 5%;
+    margin-left: 20px;
+    display: fle; justify-content: space-between; flex-direction: row-reverse; 
+    margin-right: 80px;
+    
+}
+
+.setpic{
+margin-left: 10%;
+
+
+
+
+}
+
+.setpic{
+line-height: 4;
+
+}
+#contact{
+margin-left: 10%;
+line-height: 2.5;
+margin-top: 50px;
+
+}
+
+.trytry{
+    background-color: rgba(22, 185, 63, 0.685);
+}
+
+.tryagain{
+display: flex;
+margin-bottom: 10px;
+margin-top: 40px;
+margin-bottom: 60px;
+gap: 20px;
+}
+
+.try1{
+/* flex-direction: row; */
+line-height: 40px;
+margin-top: 80px;
+width: 500px;
+/* margin-right: 150px; */
+
+
+}
+#side{
+display: flex;
+}
+
+
+
+#nav1{
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin-right: 30px;
+}
+
+#nav2{
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin-right: 30px;
+}
+
+
+#nav3{
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin-right: 30px;
+}
+
+.footo{
+    text-align: center;
+    background-color: rgb(147, 201, 201);
+    padding: 40px;
+    text-decoration: underline;
+    
+}
+
+hr{
+    margin-left: 120px;
+    margin-right: 120px;
+    opacity: 20%;
+}
+
+
+ 
+/* .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px; 
+    background-color: red;
+    
+} */
+
+.contactina{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 100px; */
+   margin-top: 30px;   
+   
+}
+
+.formman{
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+}
+
+.contain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    gap: 20px;
+    /* border: 1px solid red; */
+}
+
+.one, .two, .three, .four, .five, .six{
+  background-color: #afaf14;
+  color: rgb(254, 253, 255);
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif; font-style: bold;
+}
+
+.one{
+    grid-row: 1/21;
+    background-image: url(fish.jpg);
+}
+
+.two{
+    grid-row: 7/21;
+    background-image: url(ivan\ the\ terrible.jpg);
+}
+
+.three{
+    grid-row: 1/21;
+    grid-column: -2/-1;
+}
+
+.four{
+
+    grid-row: 1/7;
+    background-image: url(tablesetting.jpg);
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.five{
+    grid-row: 3/21 ;
+    grid-column: 2.5/4;
+    background-image: url(tree.jpg);
+}
+
+.five:hover{
+    background-image: url(WIN_20250803_09_02_18_Pro.jpg); background-position: center;
+    transition:  1s ease-in-out;
+    
+}
+
+.six{
+    grid-row: 1/3;
+grid-column: 3/4;
+background-image: url(fish.jpg);
+}
+
+
+
+/* .one{
+    padding: 10px;
+    grid-row: 1/-5;
+  
+}
+
+.two{
+    padding: 10px;
+    grid-column: 2/4;
+    
+}
+
+.three{
+    padding: 10px;
+    grid-column: 2/4;
+    
+}
+
+.four{
+    padding: 10px;
+    grid-row: 4/-2;
+} */
+
+
+
+.contacto{
+    display: flex;
+background-color: yellow;
+
+
+}
+
+.contactp{
+    list-style: 500px;
+}
+
+
+/* :root{
+    --williams:green;
+    --vintage: 10px;
+}
+
+p{
+    color: var(--williams);
+    font-size: var(--vintage);
+} */
+
+
+/* .hello{
+    border: 3px solid green;
+    padding: 50px;
+    width: 50px;
+    margin-left: 590px;
+    animation: fadein 3s infinite;
+}
+
+@keyframes fadein{
+
+    0%{background-color: yellow; transform: translateY(200px);} 
+
+    50%{background-color: #07e048; transform: translateY(100px);}
+
+    75%{background-image: url(fish.jpg); transform: matrix3d(60px);}
+
+    100%{background-color: blue; transform: translateX(60px);}
+} */
+
+.circo{ 
+   
+    border: 2px solid green; height: 200px;
+    padding: 150px;
+    width: 120px;
+    margin-left: 30px;
+    margin-top: 30px;
+   border-bottom:none;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    overflow-y: hidden;
+    box-shadow: inset 0 10px 10px -10px ; color: rgb(244, 14, 14);
+    
+}
+.hell{
+    color: yellow;
+    animation: fadein 10s infinite ;
+    text-decoration: underline;
+
+    /* overflow-Y: hidden; */
+}
+
+.hell:hover{
+    animation-play-state: paused;
+}
+
+
+
+@keyframes fadein{
+    /* 0%{
+         transform: translateY(50px)
+        } */
+    100%{ 
+        color: green; transform: translateY(-1500px)
+    }
+}
+
+@media(max-width: 400px) {
+
+#side{ display: none;} 
+.tryagain img{ display: none;}
+.try1{ width: 100%; padding: 0 10px;}
+.setpic{text-align: left;}
+.setimg img{width: 300px;height: 300px}
+.setimg img{ margin-left: 35px; margin-bottom: 30px;}
+.contactina{text-align: left;}
+.footo{width: 400px;}
+
+
+
+}
+
+
+
+
+@media (max-width: 400px) and (orientation: landscape){ 
+  .tryagain img{display: none} 
+  .footo{width: 90%}
+  body{background-color: red;}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(orientation: landscape){   
+}

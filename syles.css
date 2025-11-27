@@ -1,0 +1,126 @@
+header{
+    background-color: rgb(255, 0, 13);
+    font-size: 20px;
+}
+
+header a{
+    color: rgb(13, 214, 46);
+}
+
+header a:hover{
+
+    color: pink;
+}
+
+*{margin: 0%;
+padding: 0%;
+
+}
+
+body{
+    background-color: pink;
+
+}
+
+.firstbut:hover a{
+background-color: rgb(18, 231, 82);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body{
+background-image: url(fish.jpg);
+color: white;
+
+}
+
+
+.secbut:hover{
+
+    background-color: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#side{
+    /* position: relative;
+     display: flex;
+     padding: 0px;
+     top: 0px;
+     right: 0px; */
+     text-align:right;
+     padding: 20px;
+}
+
+.justnav{
+text-decoration: line-through;
+text-align: right;
+
+}
+
+
+
+.song:active{
+    outline: solid red;
+    /* background-color: yellow; width: fit-content;
+/* background-color: blue; width: fit-content; padding: 20px;
+color: pink; */
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+
+}
+
+/* .testone{
+display: grid; grid-template-columns: auto 1fr;
+align-items: center;
+gap: 10px; */
+
+
+/* #practice{
+position: relative;
+width: 100%;
+
+
+}
+#second:{
+    
+    position:absolute;
+
+    top: 0%;
+
+
+}
+
+#le{
+    position: absolute;
+    bottom: 58px;
+    font-size: xx-large;
+} */
+
+
+.trythis{
+
+    position: relative;
+}
+
+#second{
+
+    position: absolute;
+
+    top: 10px;
+
+    width: 250px;
+
+    
+}
+
+#le{
+
+    position: absolute;
+
+    bottom: 0%;
+
+    font-size: xx-large;
+
+}
+
+
+

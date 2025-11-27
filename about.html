@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+
+ <button class="btn">button 1</button>
+<button class="btn">button 2</button>
+<button class="btn">button 3</button>
+
+<p id="message">click a button to see a message</p>
+
+<script>
+   
+let buttons = document.querySelectorAll('.btn')
+
+for (let i = 0; i < buttons.lenght; i++){
+    buttons[i].addEventListener("click", function(){
+        document.getElementById("message").textContent= "you clicked button" + (i+1); });
+}
+</script>
+
+
+<button onclick="count()">touch me</button>
+<p id="text">count:</p>
+<p id="textw">the fuck</p>
+
+
+<script>
+   let myself = document.getElementById("text")
+  let counter = 5
+
+  function count(){}
+   if (counter<20) {
+    counter ++ 
+    text.textContent = "count:" + counter
+    textw.textContent = "count:" + counter
+   
+    }
+      
+   
+   else {
+    text.textContent = "Limit reached"
+   }  
+    textContent.textContent = "something" 
+
+
+
+
+ </script>
+
+
+ <h2>password checker</h2>
+
+<input type="password" id="password" placeholder="password">
+<button id="login">login</button>
+<p id="message"></p>
+
+<script>
+let correctPassword = '1234'
+
+let password = document.getElementById('password')
+let btn = document.getElementById('login')
+let errormessage = document.getElementById('message')
+
+btn.addEventListener('click', function(){
+    let userPassword = password.value; 
+
+    while (userPassword !== correctPassword){
+        message.textContent = 'wrong password'
+        
+        return
+    }
+    message.textContent = 'login succesful'
+
+})
+</script>
+
+
+
+<h1 id="myheading">original heading</h1>
+<p id="myparagraph">some random text</p>
+
+<div id="container"></div>
+
+<script>
+    let heading = document.getElementById('myheading');
+    heading.textContent = 'New Head'
+
+     let emptydiv = document.getElementById('container')
+     emptydiv.textContent = 'appear now!!'
+
+    let vintage = document.createElement('h2');
+    vintage.textContent = 'This new paragraph';
+
+    let contain = document.getElementById('container');
+    contain.appendChild(vintage);
+
+    let paragraph = document.querySelector("#myparagraph");
+    paragraph.style.backgroundColor = "yellow";
+    paragraph.setAttribute("title", "hover here");
+
+</script>
+
+
+<button id="mybutton">click click</button>
+
+ <script>
+    let button = document.getElementById("mybutton");
+    button.addEventListener('click', function(){
+        console.log('button was clicked');
+        button.textContent ='you clicked me';
+    });
+
+     let myheading = document.getElementById('myheading');
+     heading.addEventListener('mouseover', function(event) {
+         console.log('hovered', event.target.textContent);
+         heading.style.color = 'red'; 
+     });
+
+    heading.addEventListener('mouseout', function(){
+         heading.style.color ='black';
+    });
+
+</script>
+
+<form id="myform"><input type="text" placeholder="type here">
+<button type="submit">submit</button>
+</form>
+
+<script> 
+   let me = document.getElementById('myform')
+     me.addEventListener('submit', function(event){
+         event.preventDefault();
+         console.log('form submitted without reloading')
+         let input = myform.querySelector('input')
+         console.log('you typed', input.value)
+    })
+
+
+ </script> 
+
+
+
+<h2>student grading system</h2>
+
+<label>enter your score(0-100): </label>
+<input type="text" id="score" placeholder="enter your score here">
+<button onclick="checkgrade()">check grade</button>
+
+<p class="result"></p>
+
+<script>
+    function vintage(score) {
+        let grade
+        let fedback
+
+        if (score >= 70 && score <= 100){
+            grade = "A"
+            feedback = "excellent grade"}
+
+        else if (score >= 60 && score <= 69){
+            grade = "B"
+            feedback = "good grade"}
+        else if (score >= 50 && score <= 59){
+            grade = "C"
+            feedback = "you passed but make room for improvement"
+        }
+        else if (score >= 40 && score <= 49){
+            grade = "D"
+            feedback = "Study harder"
+        }
+        else if (score >= 0 && score <= 39){
+            grade = "F"
+            feedback = "failed"
+        } 
+        else {
+            return 'enter a numerical value  between 0-100 '
+            
+        }
+
+        return `your grade is ${grade} ${feedback}`
+    }
+    
+    function checkgrade(){
+        let userscore = document.getElementById('score').value
+        userscore = Number (userscore)
+        let message = vintage(userscore)
+        let result = document.getElementsByClassName('result')[0]
+        result.innerHTML = message;
+    }
+</script>
+
+
+
+</body>
+</html>

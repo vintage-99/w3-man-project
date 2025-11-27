@@ -1,0 +1,93 @@
+<button style="background-color: rgb(203, 223, 23);"><a href="#nav">scroll to top</a></button>
+    
+    <button style="background-color: crimson;"><a href="#footer">scroll to buttom</a></button>
+
+
+    <p>THIS IS TEST</p>
+    <PRE style="color: blue;">
+        This <i>is also</i> a <mark>test</mark>
+        Same as This
+        And this as well
+    </PRE>
+
+    <bdo dir="rtl"><p>the last wun&copy;</p></bdo>
+
+    <ul {
+        list-style-type: sqaure;
+    }>
+        <li>fan</li>
+            <li>chair</li>
+            <li>television</li>
+            <li>phone</li>
+            <li>etc</li>
+</ul>
+
+    
+    
+import React, { useState, useEffect } from "react";
+              {cart.length > 0 && (
+                <div className="border-t p-6">
+                  <div className="flex items-center justify-between mb-4">
+                    <span className="text-xl font-bold">Total:</span>
+                    <span className="text-2xl font-bold text-orange-600">${getTotalPrice().toFixed(2)}</span>
+                  </div>
+                  <button className="w-full bg-orange-600 text-white py-3 rounded-lg font-bold hover:bg-orange-700 transition-colors">
+                    Proceed to Checkout
+                  </button>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      
+      
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" id="footer">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="col-span-1 md:col-span-2">
+              <h3 className="text-2xl font-bold text-orange-500 mb-4">FoodHub</h3>
+              <p className="text-gray-300 mb-4">
+                Delivering delicious food experiences right to your doorstep. We partner with the best restaurants to bring you the finest cuisine.
+              </p>
+              <div className="flex space-x-4">
+                <div className="bg-orange-600 p-2 rounded-full">🍽️</div>
+                <div className="bg-orange-600 p-2 rounded-full">🚴‍♂️</div>
+                <div className="bg-orange-600 p-2 rounded-full">📱</div>
+              </div>
+            </div>
+            
+            <div>
+              <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+              <ul className="space-y-2 text-gray-300">
+                <li><a href="#" className="hover:text-orange-500 transition-colors">Home</a></li>
+                <li><a href="#" className="hover:text-orange-500 transition-colors">Menu</a></li>
+                <li><a href="#" className="hover:text-orange-500 transition-colors">About Us</a></li>
+                <li><a href="#" className="hover:text-orange-500 transition-colors">Contact</a></li>
+              </ul>
+            </div>
+            
+            <div>
+              <h4 className="text-lg font-semibold mb-4">Contact</h4>
+              <ul className="space-y-2 text-gray-300">
+                <li>📞 (123) 456-7890</li>
+                <li>✉️ info@foodhub.com</li>
+                <li>📍 123 Food Street, City</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+            <p>&copy; 2024 FoodHub. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+};</about>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+</head> CIRCO TECNOLOGIES
+<body>
+    <p>Circo technologies is an institution that offers</p>

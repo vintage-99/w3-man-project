@@ -1,0 +1,50 @@
+
+/* p{
+border: 5px solid rgb(94, 14, 221);
+border-radius: 50px;
+} */
+
+.box1{
+    border: 5px solid rgb(60, 255, 0);
+  
+    color: red;
+    padding: 20px;
+    position: fixed;
+    margin-bottom: 20px; 
+}
+
+
+.box2{border: 5px solid rgb(68, 0, 255);
+    padding: 20px;
+    color: red;
+position: sticky; top: 10px; 
+margin-bottom: 20px;
+
+}
+
+.box3{
+    border: 5px solid rgb(15, 196, 202);
+    color: red;
+    
+    padding: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.box4{
+    border: 5px solid yellow;
+    color: red;
+    
+    padding: 20px;
+position: static;
+margin-bottom: 20px;
+
+}
+
+.box5{
+    border: 5px solid rgb(235, 9, 148);
+    color: red;
+    padding: 20px;
+    position: absolute;
+    /* margin-bottom: 20px; */
+}
